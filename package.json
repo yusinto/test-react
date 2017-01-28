@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server/index.js",
-    "test": "jest --config ./test/jest-config.json",
+    "test": "jest",
     "testw": "npm t -- --watchAll"
   },
   "repository": {
@@ -45,8 +45,11 @@
   "devDependencies": {
     "babel-loader": "^6.2.4",
     "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-rewire": "^1.0.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "enzyme": "^2.7.1",
     "jest": "^18.1.0",
+    "react-addons-test-utils": "^15.4.2",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.4",
     "redbox-react": "^1.2.2",

@@ -13,5 +13,10 @@
                 "imports": ["react", "redbox-react"]
             }]
         }]
-    ]
+    ],
+    "env": {
+      "test": {
+        "plugins": ["babel-plugin-rewire"]
+      }
+    }
 }

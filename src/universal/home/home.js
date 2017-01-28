@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import * as Actions from './homeAction';
 
+// private class
 class Home extends Component {
   constructor(props) {
     super(props);
